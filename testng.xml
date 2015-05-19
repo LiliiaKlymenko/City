@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite">
+    <test verbose="1" name="Cities" annotations="JDK">
+        <classes>
+            <class name="Players.ComputerTest"/>
+            <class name="Game.RulesTest"/>
+            <class name="Players.PlayerTest"/>
+            <class name="Parser.ParserXmlTest"/>
+            <class name="Parser.FactoryTest"/>
+            <class name="Parser.ParserTxtTest"/>
+            <class name="Parser.ParserJsonTest"/>
+            <class name="Game.GameTest"/>
+            <class name="Parser.ParserExcelTest"/>
+        </classes>
+    </test>
+</suite>
